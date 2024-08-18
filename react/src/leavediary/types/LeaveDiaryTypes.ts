@@ -31,6 +31,9 @@ export interface GetLeaveDiaryListResponse {
       score: number;
       modDt: string;
     }[];
+    pageable: {
+      pageNumber: number;
+    };
   };
   resultCd: string;
   resultMsg: string;
